@@ -1,0 +1,55 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+ 
+block style 
+    style
+        include ../static/style.css
+
+block content
+    
+
+    section#intro 
+            div Welcome to Ritik's official cricket club
+            div.small Without sports life is not worthy.
+    section#mission
+             h2 Our Mission
+             div.card
+              h3  Fitness for All
+              div.card-box 
+                div.card-img 
+                  img(src="/static/b1.png")
+
+                div.card-content 
+                  p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia et temporibus hic a delectus quidem saepe velit beatae nemo 
+
+             div.card
+              h3 Hidden Talent
+              div.card-box 
+                div.card-img 
+                  img(src="/static/b1.png")
+
+                div.card-content 
+                  p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia et temporibus hic a delectus quidem saepe velit beatae nemo 
+
+             div.card
+              h3 Best learning
+              div.card-box 
+                div.card-img 
+                  img(src="/static/b1.png")
+
+                div.card-content 
+                  p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia et temporibus hic a delectus quidem saepe velit beatae nemo 
+                  
+
+          
+    section#sponsors
+             h2 Our sponsors
+             div#sponsorsec 
+              img(src="/static/b1.png",alt="not able to load",class="spimage")
+              img(src="/static/b1.png",alt="not able to load",class="spimage")
+              img(src="/static/b1.png",alt="not able to load",class="spimage")
+              img(src="/static/b1.png",alt="not able to load",class="spimage")
+
+    

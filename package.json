@@ -1,0 +1,19 @@
+{
+  "name": "ritik-dance-studio",
+  "version": "1.0.0",
+  "description": "best dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ritik",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4",
+    "parser": "^0.1.4",
+    "pug": "^3.0.2",
+    "pus": "^2.0.0"
+  }
+}
